@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header class="header_style">
+      <div class="search">
+        <input id="city" type="search" class="search_input" placeholder="Search">
+        
+      <button id="search_btn">
+        </button>
+      </div>
+    </header>
+    <div class="error-container">
+      <p id="error"></p>
+   </div>
+    
+    
+    
+    <div class="main_container">
+      <div class="content">
+        <div class="weather_info">
+          <p class="intro">  Today <br>
+        Weather</p>
+          <div class="conatiner_city">
+             <p class="city">
+            <span id="city_name"></span>
+          </p>
+          <img src="" alt="" id="weather__icon">
+          </div>
+         
+          <div class="container_weekday">
+            <p>
+              <span id="current_day"></span>
+            </p>
+        
+            <p>
+              <span id="current_date"></span>
+            </p>
+          </div>
+          <div class="container_temperature">
+            <p>
+              <span id="temperature"></span>
+            </p>
+            <p>
+              <span id="icono_temperaure"></span>
+            </p>
+          </div>
+        
+          <div class="last-container">
+            <div class="sunrise">
+              <p>
+                <span class="text" id="sunrise"></span>
+              </p>
+            </div>
+            <div class="sunset">
+            <p>
+              <span class="text" id="sunset"></span>
+            </p>
+          </div>
+          <div class="container_wind">
+
+            <p>
+              <span class="text" id="wind_speed"></span>
+              </p>
+            </div>
+        </div>
+        <div class="wind-img">
+          <img id="wind" src="" alt="">
+        </div>
+       
+       
+
+        </div>
+        
+        
+      </div>
+      
+    </div>
+    
+    
+    
+    
+    
+    
+    
+  
+  </body>
+</html>
